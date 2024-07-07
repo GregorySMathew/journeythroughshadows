@@ -70,6 +70,17 @@
 		transform: rotate(359deg);
 	}
 }
+/* ... existing styles ... */
+
+@media screen and (max-width: 480px) {
+    p {
+        display: block;
+        visibility: visible;
+        color: #000; /* Ensure visibility */
+        font-size: 1em; /* Ensure readability */
+    }
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
